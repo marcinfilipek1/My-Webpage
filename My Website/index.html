@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Marcin's Website</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <!--  Home  -->
+    <div id="home">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <header>Marcin Filipek</header>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/marcinfilipek1"><img src="img/Github.png" alt="Github Link" id="Github" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/marcin-filipek-916083186/"><img src="img/LinkedIn.png" alt="LinkedIn Link" id="LinkedIn" /></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--Home End-->
+    <div class="landing">
+        <div class="home-wrap">
+            <div class="home-inner">
+            </div>
+        </div>
+    </div>
+    <div class="caption text-center">
+        <h1>Welcome to Marcin Filipek's Website</h1>
+        <h2>Software Engineer/Developer & Programmer</h2>
+    </div>
+
+    <!--  About Me  -->
+    <div id="about" class="offset">
+        <div class="col-12 narrow text-center">
+            <h1>About me</h1>
+            <p class="lead">
+                Hello, I am Marcin Filipek, I am a Computer Science major
+                with a focus in Software Development at DePaul University. I know many languages such as,
+                Java, C++, C, and Python. I am currently a Senior and I will be graduating in June 2020.
+                Outside of coding I really like cars, videogames, and staying fit. I've had a passion for programming
+                since high school and I am very thankful for being able to do what I love doing.
+            </p>
+            <img src="img/My_Picture.jpg" alt="My Picture" id="My_Picture" />
+        </div>
+
+    </div>
+    <!--About Me End-->
+    <!--  Projects  -->
+    <div id="projects" class="offset">
+        <div class="fixed-background">
+            <div class="row dark text-center">
+                <div class="col-12">
+                    <h3 class="heading">Projects</h3>
+                </div>
+                <div class="col-md-4">
+                    <h3> Project 1</h3>
+                    <p class="firstProject">
+                        Created a program to teach kids about Computer Science terms through the use
+                        of a card game. This game is player vs computer, both players start with a health bar and
+                        randomly selected cards from the deck. Each card either attacks the opponent or heals themselves.
+                        The cards are named after Computer Science terms such as integers, strings, floats, linked lists, etc.
+                    </p>
+
+                    <FORM action="https://github.com/marcinfilipek1/DemonHacks-Project-2018">
+                        <INPUT Type="submit" Value="GitHub" class="buttonStyler">
+                    </FORM>
+                </div>
+                <div class="col-md-4">
+                    <h3> Project 2</h3>
+                    <p class="secondProject">Created a program to allow small businesses to find the perfect place to open, based on customer surveys.
+                    This appliciation would allow for businesses to determine where the most demand is for their product by
+                    using surveys to poll users within a certain geographical location. The users would benefit through this
+                    because it would allow for products they want to open in the places they want.</p>
+
+                    <FORM action="https://github.com/marcinfilipek1/DemonHacks-Project-2019">
+                        <INPUT Type="submit" Value="GitHub" class="buttonStyler">
+                    </FORM>
+                </div>
+                <div class="col-md-4">
+                    <h3> Project 3</h3>
+                    <p class="thirdProject">
+                        I created this website using HTML, CSS, and Bootstrap. This was a project I decided to
+                        do because I wanted to familiarize myself with building a front-end. Up to this point I havent
+                        had any exposure to front end languages so I am trying to broaden my knowledge so that I can become more
+                        versatile as a programmer.
+                    </p>   
+                    <FORM action="https://github.com/marcinfilipek1/My-Webpage">
+                        <INPUT Type="submit" Value="GitHub" class="buttonStyler">
+                    </FORM>
+                </div>
+            </div>
+            <div class="fixed-wrap">
+                <div class="fixed">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End-->
+    <!--  Resume -->
+    <div id="resume" class="offset">
+        <div class="jumbotron">
+            <div class="narrow" align="middle">
+                <FORM>
+                    <INPUT Type="submit" Value="Open PDF" Onclick="window.open('Resume.pdf','_blank')" class="buttonStyler2">
+                </FORM>
+                <iframe src="Resume.pdf" width="1200" height="1200" align="middle" class="pdfFile">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+    <!--Resume End-->
+    <!--- Script Source Files -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+</body>
+</html>
